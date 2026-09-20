@@ -1,0 +1,9 @@
+# Flutter가 생성한 플랫폼 러너 코드를 언어 통계에서 제외한다.
+# (제외하지 않으면 linux/windows 의 C++ 줄 수가 Dart 를 압도해
+#  GitHub 이 이 레포를 C++ 프로젝트로 표시한다)
+linux/** linguist-generated
+windows/** linguist-generated
+macos/** linguist-generated
+ios/** linguist-generated
+android/** linguist-generated
+web/** linguist-generated

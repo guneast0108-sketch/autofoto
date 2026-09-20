@@ -1,0 +1,43 @@
+{
+  "model": "model.tflite",
+  "images": 1000,
+  "note": "절대 정확도는 낙관적(학습 세트 포함 가능). 상대 비교만 유효.",
+  "resample": {
+    "nearest": {
+      "mcnemar": {
+        "only_minusOneToOne_correct": 109,
+        "only_zeroToOne_correct": 20,
+        "p": 5.07222863561152e-16
+      },
+      "single_image_confidence_picks_minusOneToOne": 0.653,
+      "zeroToOne": {
+        "top1": 0.75,
+        "top5": 0.928,
+        "median_top1_confidence": 0.6608185768127441
+      },
+      "minusOneToOne": {
+        "top1": 0.839,
+        "top5": 0.968,
+        "median_top1_confidence": 0.7833567559719086
+      }
+    },
+    "bilinear": {
+      "mcnemar": {
+        "only_minusOneToOne_correct": 121,
+        "only_zeroToOne_correct": 17,
+        "p": 1.5997210060647713e-20
+      },
+      "single_image_confidence_picks_minusOneToOne": 0.672,
+      "zeroToOne": {
+        "top1": 0.754,
+        "top5": 0.924,
+        "median_top1_confidence": 0.6739361882209778
+      },
+      "minusOneToOne": {
+        "top1": 0.858,
+        "top5": 0.978,
+        "median_top1_confidence": 0.8013860881328583
+      }
+    }
+  }
+}
